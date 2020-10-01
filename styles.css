@@ -32,6 +32,12 @@
     width: 50%;
 
 }
+#apply {
+    text-align: center;
+}
+#apply h3 {
+    text-transform: uppercase;
+}
 
 /* 
 #barbecue {
