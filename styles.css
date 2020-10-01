@@ -14,10 +14,26 @@
     font-family:"Cooperm";
     src:url("fonts/cooperm.ttf");
 }
-/* #father {
-    background-image: url('img/fatherhood+1.svg');
-    background-size: 100%;
+#father {
+    /* background-image: url('img/fatherhood.svg');
+    background-size: cover; */
+    /* display: inline-block; */
+    position: absolute;
+    top: 25%;
+    /* right: 25%; */
+    /* margin: 0 auto; */
+    /* bottom: ; */
+    /* z-index: 0; */
+    /* padding: auto 0; */
+    
 }
+#father img {
+    float: right;
+    width: 50%;
+
+}
+
+/* 
 #barbecue {
     background-image: url('img/barbecue.svg');
     background-size: cover;
@@ -37,7 +53,7 @@
 nav {
     display: flex; 
     justify-content: space-between;
-    padding: 1em;
+    padding: 10px;
 }
 .brand {
     font-family: 'Bariol-bold';
@@ -61,20 +77,28 @@ nav {
     padding: 0 0.5em;
     
 }
+h1 {
+    font-family: 'Cooperm';
+    font-size: 4em;
+    text-transform: uppercase;
+    padding-left: 10px;
+    /* width: 685px; */
+    margin-top: 100px;
+}
 
 a {
     text-decoration: none;
-
-
 }
-img {
+
+
+/* img {
     width: 50%;
     float: right;
     margin-right: 10em;
     position: relative;
     top: 20%;
 
-}
+} */
 *{
     padding: 0;
     margin: 0;
