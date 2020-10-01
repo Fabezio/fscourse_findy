@@ -1,0 +1,83 @@
+@font-face{
+    font-family:"Bariol";
+    src:url("fonts/bariol.ttf");
+}
+@font-face{
+    font-family:"Bariol-bold";
+    src:url("fonts/bariolbold.ttf");
+}
+@font-face{
+    font-family:"Bariol-thin";
+    src:url("fonts/bariolthin1.ttf");
+}
+@font-face{
+    font-family:"Cooperm";
+    src:url("fonts/cooperm.ttf");
+}
+/* #father {
+    background-image: url('img/fatherhood+1.svg');
+    background-size: 100%;
+}
+#barbecue {
+    background-image: url('img/barbecue.svg');
+    background-size: cover;
+}
+#eiffel {
+    background-image: url('img/eiffel.svg');
+    background-size: cover;
+}
+#wedding {
+    background-image: url('img/wedding.svg');
+    background-size: cover;
+} */
+.dicaprio {
+    background: linear-gradient(#ffc7ff, #ff50dd);
+    height: 100vh;
+}
+nav {
+    display: flex; 
+    justify-content: space-between;
+    padding: 1em;
+}
+.brand {
+    font-family: 'Bariol-bold';
+    font-size: 3em;
+}
+.brand a {
+    color: black;
+}
+
+    
+.menu {
+    font-family: 'Bariol-thin';
+    text-transform: uppercase;
+    font-size: 20px;
+    display: flex;
+    font-style: italic;
+    justify-content: flex-end;
+}
+.grey {
+    color: grey;
+    padding: 0 0.5em;
+    
+}
+
+a {
+    text-decoration: none;
+
+
+}
+img {
+    width: 50%;
+    float: right;
+    margin-right: 10em;
+    position: relative;
+    top: 20%;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* HEADER */
