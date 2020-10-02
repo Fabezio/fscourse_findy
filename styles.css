@@ -78,11 +78,12 @@ nav a:hover {
     padding: 0 0.5em;
 }
 
-#apply {
+#desc {
     text-align: center;
+    font-family: 'Cooperm';
 }
 
-#apply h3 {
+#desc h3 {
     text-transform: uppercase;
 }
 
@@ -99,30 +100,6 @@ h1 {
     margin-top: 100px;
 }
 
-
-
-/* 
-#barbecue {
-    background-image: url('img/barbecue.svg');
-    background-size: cover;
-}
-#eiffel {
-    background-image: url('img/eiffel.svg');
-    background-size: cover;
-}
-#wedding {
-    background-image: url('img/wedding.svg');
-    background-size: cover;
-} */
-
-/*
-    SVG 
-    */
-/* 
-.vector {
-    float: right;
-} */
-
 /*
     liens
 */
@@ -131,18 +108,7 @@ a {
     text-decoration: none;
 }
 
-/*
-    images 
-    */
 
-/* img {
-    width: 50%;
-    float: right;
-    margin-right: 10em;
-    position: relative;
-    top: 20%;
-
-} */
 
 li {
     list-style: none;
