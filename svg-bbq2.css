@@ -34,9 +34,9 @@
 */
 #Sausages {
     /* background-color: blue; */
-    filter: brighness(50%);
+    /* filter: brighness(50%); */
     animation-name: sausages;
-    animation-duration: 10s;
+    animation-duration: 300s;
     /* animation-delay: 1s; */
     animation-iteration-count: infinite;
     animation-timing-function: linear;
@@ -44,10 +44,10 @@
 
 @keyframes sausages {
     0% {
-        /* filter: brightness(20%); */
+        filter: brightness(100%);
     }
-    50% {
-        filter: brightness(25%);
+    100% {
+        filter: brightness(33%);
         /* opacity: 0; */
         /* transform: rotateX(5deg); */
     }

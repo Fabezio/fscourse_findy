@@ -81,6 +81,7 @@ nav a:hover {
 #desc {
     text-align: center;
     font-family: 'Cooperm';
+    padding: 50px 30px;
 }
 
 #desc h3 {
