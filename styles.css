@@ -21,6 +21,11 @@
     font-family: "Cooperm";
     src: url("fonts/cooperm.ttf");
 }
+
+.findy {
+    font-family: 'Bariol-bold';
+    font-size: 1.1rem;
+}
 .uppercase {
     text-transform: uppercase;
 }
